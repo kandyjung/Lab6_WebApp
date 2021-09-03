@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="MyScript.js"></script>
+    <form onsubmit="return Hi();" action="result.html" method="GET">
+      <center><img src="MFU.png" alt="Italian Trulli" width="200" /></center>
+      <center><h1>MAE FAH LUANG UNIVERSITY</h1></center>
+      <center >Application for Admission</center>
+      <br /><br />
+
+      <div></div>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;APPLICANT INFORMATION
+      <div>
+        <input
+          type="text"
+          name="ffname"
+          id="ffname"
+          required
+          value="First Name"
+          readonly
+        />
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+          size="30"
+          style="background: #87cefa"
+        />
+
+        <input
+          type="text"
+          name="midname"
+          id="midname"
+          value="Middle Name"
+          readonly
+          required
+        />
+        <input
+          type="text"
+          name="mname"
+          id="mname"
+          size="30"
+          style="background: #87cefa"
+        />
+
+        <input
+          type="text"
+          name="lasttname"
+          id="lasstname"
+          value="Last Name"
+          readonly
+        />
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          size="30"
+          style="background: #87cefa"
+        />
+      </div>
+      <br />
+      <div></div>
+      <div>
+        <!-- <center> -->
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;PERSONAL DETAIL
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input
+          type="radio"
+          name="male"
+          id="male"
+          value="male"
+        />
+
+        <label for="male">Male</label>
+        <input type="radio" name="female" id="female" value="female" />
+        <label for="female">Female</label>
+        <!-- </center> -->
+      </div>
+      <div>
+        <input
+          type="text"
+          name="nationlity"
+          id="nationlity"
+          value="Nationality"
+          readonly
+        />
+        <input
+          type="text"
+          name="national"
+          id="national"
+          required
+          size="30"
+          style="background: #87cefa"
+        />
+
+        <input
+          type="text"
+          name="rreligion"
+          id="religionr"
+          value="Religion"
+          readonly
+        />
+        <input
+          type="text"
+          name="religion"
+          id="religion"
+          size="30"
+          style="background: #87cefa"
+        />
+
+        <input
+          type="text"
+          name="place_birth"
+          id="place_birth"
+          value="Place of Birth"
+          readonly
+        />
+        <input
+          type="text"
+          name="place"
+          id="place"
+          size="30"
+          style="background: #87cefa"
+        /><br />
+
+        <input type="text" name="theage" id="theage" value="Age" readonly />
+        <input
+          type="number"
+          name="age"
+          id="age"
+          size="50"
+          style="background: #87cefa"
+        />
+        &emsp;&emsp;&emsp;&emsp;
+
+        <input
+          type="text"
+          name="ddate"
+          id="ddate"
+          value="Date of Birth"
+          readonly
+        />
+        <input
+          type="date"
+          name="birthdate"
+          id="birthdate"
+          size="30"
+          style="background: #87cefa"
+        />
+        &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+
+        <input
+          type="text"
+          name="bloddy"
+          id="bloddy"
+          value="Blood Group"
+          readonly
+        />
+        <select name="blood" id="blood" style="background: #87cefa">
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="O">O</option>
+          <option value="AB">AB</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PROPOSED PROGRAMME OF STUDY <br />
+      </div>
+        <div id="method">
+      
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (a)What method of study do you
+        propose?&emsp;&emsp;&emsp;&emsp;
+
+        <input type="radio" name="fulltime" id="fulltime" value="Yes" />
+        <label for="fulltime">Full-Time</label>
+        <input type="radio" name="parttime" id="parttime" value="Yes" />
+        <label for="parttime">Part-Time</label><br />
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; (b)What School/Programme dp you wish
+        to apply for?
+        <u
+          >(Example:School of Management Bachelor of Business Administration in
+          Tourism Management)</u
+        >
+      </div>
+      <br />
+      <div>
+        <input
+          type="text"
+          name="school_of"
+          id="school_of"
+          value="School of"
+          readonly
+        />
+        <input
+          type="text"
+          name="schoolof"
+          id="schoolof"
+          size="93"
+          style="background: #87cefa"
+        /><br />
+        <input
+          type="text"
+          name="Bachelor_of"
+          id="Bachelor_of"
+          value="Bachelor of"
+          readonly
+        />
+        <input
+          type="text"
+          name="Bachelor"
+          id="Bachelor"
+          size="30"
+          style="background: #87cefa"
+        />
+        <input type="text" name="inn" id="inn" value="in" readonly />
+        <input
+          type="text"
+          name="inBachelor"
+          id="inBachelor"
+          size="30"
+          style="background: #87cefa"
+        />
+      </div>
+      <div>
+        <br />
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;Guardian
+        <br />
+        <input
+          type="text"
+          name="fffname"
+          id="fffname"
+          value="First Name"
+          readonly
+        />
+        <input
+          type="text"
+          name="f_name"
+          id="f_name"
+          size="30"
+          style="background: #87cefa"
+        />
+        <input
+          type="text"
+          name="lastt_name"
+          id="lasst_name"
+          value="Last Name"
+          readonly
+        />
+        <input
+          type="text"
+          name="l_name"
+          id="l_name"
+          size="93"
+          style="background: #87cefa"
+        />
+        <br />
+        <input
+          type="text"
+          name="c_occupatio"
+          id="c_occupation"
+          value="Current occupation"
+          readonly
+        />
+        <input
+          type="text"
+          name="occupation"
+          id="occupation"
+          size="30"
+          style="background: #87cefa"
+        />
+        <input type="text" name="t_title" id="t_title" value="Title" readonly />
+        <input
+          type="text"
+          name="title"
+          id="title"
+          size="30"
+          style="background: #87cefa"
+        />
+        <input
+          type="text"
+          name="em_company"
+          id="em_company"
+          value="Employee/Company"
+          readonly
+        />
+        <input
+          type="text"
+          name="company"
+          id="company"
+          size="30"
+          style="background: #87cefa"
+        />
+        <br />
+        <input
+          type="text"
+          name="home"
+          id="home"
+          value="Home Address"
+          readonly
+        />
+        <input
+          type="text"
+          name="address"
+          id="address"
+          size="156"
+          style="background: #87cefa"
+        />
+        <br />
+        <input type="text" name="phone" id="phone" value="Telephone" readonly />
+        <input
+          type="text"
+          name="telephone"
+          id="telephone"
+          size="30"
+          style="background: #87cefa"
+        />
+        <input type="text" name="mail" id="mail" value="Email" readonly />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          size="93"
+          style="background: #87cefa"
+        />
+      </div>
+      <br />
+      
+        <div>
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Source of financial support during
+        your period of study:
+        <br />
+        </div>
+       <div id="source">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input
+          type="radio"
+          name="parent_guardian"
+          id="parent_guardian"
+          value="Yes"
+        />
+        <label for="parent_guardian">Parent/Guardian</label>
+        <label style="background: #87cefa" for="dott"
+          >......................</label
+        >
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="scholarship" id="scholarship" value="Yes" />
+        <label for="scholarship">Scholarship/Grant(name)</label>
+        <label style="background: #87cefa" for="dott1"
+          >......................</label
+        >
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="radio" name="other" id="other" value="Yes" />
+        <label for="other">Other(name)</label>
+        <label style="background: #87cefa" for="dott2"
+          >......................</label
+        >
+      </div>
+      <div>
+        <input type="reset" value="Reset" />
+        <input type="button" value="submit" onclick="Hi()" name="submit" />
+      </div>
+    </form>
+  </body>
+</html>

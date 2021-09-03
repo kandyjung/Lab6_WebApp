@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="result.html" method="GET">
+      <div>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" id="fname" required />
+      </div>
+      <div>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" id="lname" />
+      </div>
+      <div>
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="pwd" />
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label for="url">Personal Web Page</label>
+        <input type="url" name="url" id="url" />
+      </div>
+      <hr />
+      <div>
+        What is/are your favorite subjects?
+        <div>
+          <input type="checkbox" name="math" id="math" />
+          <label for="math">Mathematics</label>
+        </div>
+        <div>
+          <input type="checkbox" name="compro" id="compro" />
+          <label for="compro">Computer Programming</label>
+        </div>
+        <div>
+          <input type="checkbox" name="comnet" id="comnet" />
+          <label for="comnet">Computer Network</label>
+        </div>
+        
+          Do you like chocolate?
+          <div>
+            <input type="radio" name="chocolate" id="chocyes" value="yes" />
+            <label for="chocyes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" name="chocolate" id="chocno" value="no" />
+            <label for="chocno">No</label>
+          </div>
+          
+          <div>
+            <label for="fevfood">What is your favorite food?</label>
+            <select name="fevfood" id="fevfood" size='3' multiple>
+                <option value="Pizza">Pizza</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Spaghetti">Spaghetti</option>
+                <option value="Somtum">Somtum</option>
+            </select>
+        </div>
+        <div>
+            <label for="family">A few word about your family</label>
+            <div>
+            <textarea name="family" id="family" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <div>
+            <label for="birthdate">Date of Birth</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div>
+        <div>
+            <label for="fevnum">Favorite Number</label>
+            <input type="number" name="fevnum" id="fevnum" min="0" max="10" step="2">
+        </div>
+        <div>
+            <label for="color">Favorite color</label>
+            <input type="color" name="color" id="color">
+
+        </div>
+        
+        
+          <div>
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
